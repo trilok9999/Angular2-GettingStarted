@@ -8,13 +8,16 @@ import { WelcomeComponent } from './home/welcome.component';
 
 /* Feature Modules */
 import { ProductModule } from './products/product.module';
+import { ChartModule } from 'angular2-highcharts';
+
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     routing,
-    ProductModule
+    ProductModule,
+    ChartModule.forRoot(require('highcharts'))
   ],
   declarations: [
     AppComponent,
