@@ -1,0 +1,22 @@
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+.exon-panelHeading {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.ex-container label {
+    color: rgb(75, 85, 100);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.table-details{
+    position: absolute;
+    right: 510px;
+    bottom: 225px;
+    border : 1px solid #333
+}

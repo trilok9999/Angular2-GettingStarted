@@ -4,9 +4,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'simple-chart-example',
-    template: `
-        <chart [options]="options"></chart>
-    `
+    templateUrl: 'app/home/welcome.component.html',
+    styleUrls : ['app/home/welcome.component.css']
 })
 export class WelcomeComponent {
     constructor() {
