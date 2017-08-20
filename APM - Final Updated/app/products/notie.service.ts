@@ -10,4 +10,4 @@ export class notieService {
     confirm(options : any) : void {
         notie.confirm(options);
     }
- }
+}
