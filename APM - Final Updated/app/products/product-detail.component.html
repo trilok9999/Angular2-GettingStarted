@@ -69,8 +69,8 @@
             </div>
         </modal-body>
         <modal-footer>
-            <button class="btn btn-default ladda-button" style="color:#333;background-color:#fff;border-color:#ccc" (click)="closeModal()">Cancel</button>
-            <button class="btn btn-primary ladda-button" style="background-color: #337ab7;border-color: #2e6da4;" (click)="updateProduct()" [ladda]="isLoading">Update</button>
+            <button class="btn btn-default"  (click)="closeModal()">Cancel</button>
+            <button class="btn btn-primary ladda-button" (click)="updateProduct()" [ladda]="isLoading">Update</button>
         </modal-footer>
     </modal>
 </div>
