@@ -6,7 +6,8 @@ import { ProductDetailComponent } from './product-detail.component';
 
 export const productRoutes: Routes = [
   { path: 'products', component: ProductListComponent },
-  { path: 'product/:id', component: ProductDetailComponent }
+  { path: 'product/:id', component: ProductDetailComponent },
+  { path: '', redirectTo: 'products', pathMatch: 'full'}
 ];
 
 export const productRouting: ModuleWithProviders =

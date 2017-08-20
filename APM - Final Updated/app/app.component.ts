@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
             <div class='container-fluid'>
                 <a class='navbar-brand'>{{pageTitle}}</a>
                 <ul class='nav navbar-nav'>
-                    <li><a [routerLink]="['/welcome']">Home</a></li>
                     <li><a [routerLink]="['/products']">Product List</a></li>
                 </ul>
             </div>
@@ -20,5 +19,5 @@ import { Component } from '@angular/core';
      `
 })
 export class AppComponent {
-    pageTitle: string = 'Acme Product Management';
+    pageTitle: string = 'Products';
 }
